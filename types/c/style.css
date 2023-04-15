@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 200px;
+  text-shadow: 2px 2px 5px #ffffff;
+  animation: colorchange 2s infinite;
+}
+
+@keyframes colorchange {
+  0% {
+    color: rgb(255, 255, 255);
+    transform: translateY(0);
+  }
+  25% {
+    color: #000000;
+    transform: translateY(-30px);
+  }
+  50% {
+    color: #030303;
+    transform: translateY(0);
+  }
+  75% {
+    color: #ffffff;
+    transform: translateY(-15px);
+  }
+  100% {
+    color: rgb(0, 0, 0);
+    transform: translateY(0);
+  }
+}
+
